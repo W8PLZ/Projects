@@ -5,9 +5,9 @@ I did find some good 3-way mono active crossovers at Xkitz. The only problem wit
 
 Then I came across the miniDSP package. The 2x input, 4x output miniDSP goes for around 275$USD (way too expensive for me). Then I looked at the 2x input, 8x output miniDSP board, and that one went for like 400$USD. 
 
-I then found an open source DSP module. This was awesome!! So I looked at the freeDSP Aurora, the 8x in, 8x out, DSP board, but when I made the bill of materials (BOM), it ended up costing around 280$CAD just for parts, with no circuits or connectors. Instead, I decided to build 2 of the freeDSP Classic. That would give me 8 outputs and I could connect the two right and left inputs on each board.
+I then found an open source DSP module (http://www.freedsp.cc/). This was awesome!! So I looked at the freeDSP Aurora, the 8x in, 8x out, DSP board, but when I made the bill of materials (BOM), it ended up costing around 280$CAD just for parts, with no circuits or connectors. Instead, I decided to build 2 of the freeDSP Classic. That would give me 8 outputs and I could connect the two right and left inputs on each board.
 
-I made the BOM from the part list and among Arrow Electronics, Digikey, and Mouser to get the best prices possible, everything ended up costing around 170$CAD. This costs almost as much as the active crossover module for Xkitz, but with this DSP module, I can do:
+I made the BOM from the part list(https://docs.google.com/document/d/1K3joEg4iIRMazfqGLaVoBdybitr4o_KIVZfQ-qeNDzs/edit#heading=h.ihv636) and among Arrow Electronics, Digikey, and Mouser to get the best prices possible, everything ended up costing around 170$CAD. This costs almost as much as the active crossover module for Xkitz, but with this DSP module, I can do:
 
 - Digital crossovers
 - Digital room correction
@@ -29,7 +29,7 @@ So I decided to abandon this expensive soldering tutorial and buy pre-built Mini
 
 # MiniDSP 2x4 Kit
 
-Since I needed 6 output channels, I ordered two MiniDSP 2x4 Kits, a class-D 6-channel amplifier, and a 36V DC power supply for the amplifier. The MiniDSP boards were super easy to interface to using the MiniDSP software and it was straightforward to create the crossovers I needed for my speakers.
+Since I needed 6 output channels, I ordered two MiniDSP 2x4 Kits(https://www.minidsp.com/products/minidspkits/2-x-in-4-x-out), a class-D 6-channel amplifier(https://www.parts-express.com/sure-electronics-aa-ab34181-6x100w-tda7498-class-d-amplifier-board--320-307), and a 36V DC power supply for the amplifier. The MiniDSP boards were super easy to interface to using the MiniDSP software and it was straightforward to create the crossovers I needed for my speakers.
 
 An enclosure for all of this equipment was built from wood and spare aluminum I had at home:
 
@@ -51,13 +51,13 @@ On the back of this bad boy, there are:
 - 6x screw terminals (output)
 
 Things that I would change:
-- Practice my metal-work as it is rudimentary at best. I hope to either buy a better enclosure (such as this) or make a better one in the future, using the CNC machine.
+- Practice my metal-work as it is rudimentary at best. I hope to either buy a better enclosure (such as this:https://www.amazon.ca/SilverStone-Technology-Mini-ITX-Computer-Aluminum/dp/B00HJOK6F4?ref_=fsclp_pl_dp_1) or make a better one in the future, using the CNC machine.
 - Not screw the potentiometer knob screw too much (I broke the potentiometer "legs").
 - Change the fan that was used for the power supply with a quieter one.
 - Put little legs on the bottom of the enclosure instead of using folded paper.
 
 Once the speakers were finished and this lovely box was finished, I hooked it all up and played some music. At first, it didn't sound very good, so I had to go back to the MiniDSP software to adjust the crossover and gain settings.
 
-To establish a baseline, I decided to try to bring the speakers' frequency responses as flat as possible before I started to make them sound more "alive". This was done by trial and error (a lot of error), with a frequency sweep, the microphone on my phone, and the Sound Analyzer app. The crossover filters used were Linkwitz-Riley 12dB/octave.
+To establish a baseline, I decided to try to bring the speakers' frequency responses as flat as possible before I started to make them sound more "alive". This was done by trial and error (a lot of error), with a frequency sweep, the microphone on my phone, and the Sound Analyzer app (https://play.google.com/store/apps/details?id=com.dom.audioanalyzer&hl=en). The crossover filters used were Linkwitz-Riley 12dB/octave.
 
 It turned out that since the tweeter's impedance is different from the other two drivers, it didn't play as loud as the other two drivers, so I had to adjust its gain to have them all equal. I proceeded to adjust the gain for each driver on each speaker to have the flattest frequency response possible (according to the app). Once this was achieved, I played different genres and types of music (pop, piano, bass-heavy, etc) and adjusted the gain on each driver on each speaker to a level that I found made them fill the room the most and provide a dynamic sound.
