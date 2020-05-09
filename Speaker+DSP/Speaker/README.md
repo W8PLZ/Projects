@@ -10,7 +10,7 @@ Contents:
 4. Building the Thing
 5. Final Product
 
-![Final](/0readme pics/1.jpg)
+![Final](/0readmepics/1.jpg)
 
 ### Step 1: Driver Selection
 
