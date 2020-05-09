@@ -32,3 +32,32 @@ So I decided to abandon this expensive soldering tutorial and buy pre-built Mini
 Since I needed 6 output channels, I ordered two MiniDSP 2x4 Kits, a class-D 6-channel amplifier, and a 36V DC power supply for the amplifier. The MiniDSP boards were super easy to interface to using the MiniDSP software and it was straightforward to create the crossovers I needed for my speakers.
 
 An enclosure for all of this equipment was built from wood and spare aluminum I had at home:
+
+<p align="center">
+<img src="0readmepics/finished_box.jpg" height="300">
+</p>
+
+To get the volume control on both DSP modules at the same time, the potentiometer was wired to one of them, with the variable lead also connected to the second module.
+
+To turn the entire thing on and off, I used a 120V switch connected to the power input in the back. I used an IEC C13 plug for AC mains power (this is the same plug that is used for computer power supplies). The amplifier 36V DC power supply was connected in parallel with the 5V DC adapter to power both MiniDSP boards.
+
+The micro-USB receptacles on the MiniDSP boards were connected to male micro-USB to female USB-A adapters. The female ends of these adapters are what you see on the front of the enclosure.
+
+On the back of this bad boy, there are:
+
+- IEC C13 Power Input with inline 10A fuse
+- 3.5mm jack (input)
+- 2x RCA jacks (input)
+- 6x screw terminals (output)
+
+Things that I would change:
+- Practice my metal-work as it is rudimentary at best. I hope to either buy a better enclosure (such as this) or make a better one in the future, using the CNC machine.
+- Not screw the potentiometer knob screw too much (I broke the potentiometer "legs").
+- Change the fan that was used for the power supply with a quieter one.
+- Put little legs on the bottom of the enclosure instead of using folded paper.
+
+Once the speakers were finished and this lovely box was finished, I hooked it all up and played some music. At first, it didn't sound very good, so I had to go back to the MiniDSP software to adjust the crossover and gain settings.
+
+To establish a baseline, I decided to try to bring the speakers' frequency responses as flat as possible before I started to make them sound more "alive". This was done by trial and error (a lot of error), with a frequency sweep, the microphone on my phone, and the Sound Analyzer app. The crossover filters used were Linkwitz-Riley 12dB/octave.
+
+It turned out that since the tweeter's impedance is different from the other two drivers, it didn't play as loud as the other two drivers, so I had to adjust its gain to have them all equal. I proceeded to adjust the gain for each driver on each speaker to have the flattest frequency response possible (according to the app). Once this was achieved, I played different genres and types of music (pop, piano, bass-heavy, etc) and adjusted the gain on each driver on each speaker to a level that I found made them fill the room the most and provide a dynamic sound.
