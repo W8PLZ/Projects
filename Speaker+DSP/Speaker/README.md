@@ -10,6 +10,8 @@ Contents:
 4. Building the Thing
 5. Final Product
 
+![Final](/0readme pics/1.jpg)
+
 ### Step 1: Driver Selection
 
 Choosing drivers that work well together is an art, in my opinion. The first thing that I decided were my crossover frequencies: 300 Hz and 3kHz. I chose these so that my midrange driver would cover most of the important audible frequencies (2k-4kHz) and would be supported by the tweeter. Then, the woofer would come in around the low frequencies from around 150-300Hz. The remaining low frequency components would be covered by the subwoofer that I would eventually add to the system.
