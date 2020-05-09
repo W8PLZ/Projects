@@ -10,7 +10,10 @@ Contents:
 4. Building the Thing
 5. Final Product
 
-![Final](Speaker+DSP/Speaker/0readmepics/1.jpg)
+<p align="center">
+<img src="0readmepics/1.jpg" height="300">
+</p>
+![Final](0readmepics/1.jpg)
 
 ### Step 1: Driver Selection
 
